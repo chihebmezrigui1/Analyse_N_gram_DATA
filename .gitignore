@@ -3,6 +3,7 @@ venv/
 env/
 .venv/
 .env/
+myenv/
 
 # Ignore les fichiers de dépendances
 *.pyc
