@@ -97,7 +97,7 @@ for n in range(1, max_length + 1):
 # Sauvegarder les résultats dans des fichiers CSV
 for n, ngrams in ngrams_results.items():
     ngrams_df = pd.DataFrame(ngrams, columns=[f'{n}-gram', 'frequency'])
-    ngrams_df.to_csv(f'D:/work/ESKIMOZ/data/{n}grams_frequency.csv', index=False)
+    ngrams_df.to_csv(f'D:/work/ESKIMOZ_PROJECT/data/{n}grams_frequency.csv', index=False)
 
 print(f"Les résultats ont été sauvegardés dans des fichiers CSV nommés '{n}grams_frequency.csv' pour n allant de 1 à {max_length}.")
 
@@ -126,7 +126,7 @@ def vis_nuage_mots(ngrams_results, n):
 
 # On applique cette fonction pour visualiser le nuage des mots de 1gram les plus fréquents
 n=1
-vis_nuage_mots(ngrams_results, 3)
+vis_nuage_mots(ngrams_results, 1)
 
 
 # Fonction pour la visualisation des données de n_grams et leurs fréquence sous forme des barres horizontales .
