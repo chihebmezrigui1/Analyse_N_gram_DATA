@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "eskimoz-etude-cas-46017",
+  "private_key_id": "d740eda083adc4bce144ed13085491c875990100",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcPdc/5Ba5RAYQ\nTNzWT3E6KrGvNrSTgF8ulcE9/FRQwhumAwjkDJcPorXkAsatGysTkFf2Oz9Lf43T\nH2j1TI1UZuotF0hZ0nXlvOiIH3lgLlV6Mbq+bD1Wj/qNFXZoqsIhCOh8Z8fV+48Y\nqZk2BN26hO/43GLkf1GyEvqLtQvldjug/q3pZjkmEIAfgZqo7gOe7U+cpvo8QVVP\na8hz7Bz6UsbWlSDo1b6Up6rui4F7q8Sh8BZUhaqxC4s6Sdz/9dsy3jjdn22CDpCa\nBQHxeB1VokgvdAYAQDSvtllRv9JFbzJQm4hUgya2BbVpw4eEMny2muzIwqWTxmmy\ngo3P2OUnAgMBAAECggEAT24uN2i3mVGjLjXKX7B/EY9cTejY72mY6mAwNX7PmeCn\nwBPQHQ89W/I+z2EA7mWh/4hLcQ6lIUF7kOz/GZjmT85eHq0K9vokcxrScmWHjNyp\nD0zoIM1AwftjTYa0EcOkB+4CivuS4uW7EhX4n7bZkO9o7MPvFqGkgSi/G6vMApEa\nTfMBy+1a9+oI/tv19GLztgT7wFKSeinWkZ5aoB7TEOF3fKvmhv8Dh8ODh1fWGozD\n/RyiZEbZbC8G4rImRTQQdWSFqYWEZ+zfKA8dG/euuMfsIJzaKzjEqZBy9fJgPgJ6\nb9mOLiCpJF1FzLnpOLwUVIwYpw/RYEA76PjOJqK1IQKBgQD0ut+gP8ltuCwnN4dx\nhh/gPZmEq02VyiG+DOcKWxvrUV9zMM0lW1B/GjtYsiaapjBZjGJIDb9AHzw8GvCY\n9fAoXmnqhbS4RsGT0j+zyugVW/2hli4EXWN4So98D7q6Wsgqtbj9HnKyM3f/8gCS\nA/9erraJ8jvebxdTeMJuFf9pZQKBgQDmYkXfy1PZc9ED2hptlW4Woepd7RQLRw5i\nJpuofrHrZFz9R7tiVCSm571B9WS2dXITga7pFYCliy0oi7CuwKZeShxpkmmrQGYr\nIG4J4eLLL9sZUG+GE3jgPe6JqRKWM35YCDDZ4/p0XnBP2hwOCWRSUNg+ELSF5aFl\nD84rmkzxmwKBgQCuCoPkg9hs9fA4h44EFv1uTIBz0Bth7hjm/mgEflyxkfIOimMq\nMPFjIrWX00IO8ycpV+PBGD2tjUkZ+ZKnRSfgnZw3U5T9BBzAUmJJK4C3R+9szc+1\n/PAzaNr3wHvr8YmujgObxt6MinvJgkITlVIz9I4ONj2LZ3ewPg4PmgdE3QKBgQDk\nONHzYp7LuXmDEVpA2FjYPsnHBgZnLZrIDGsCvY9PGnsrxRWR0L0GQmcvogKE5U9+\nl2dIKy7nzzmLAuaiFuI4Yb5HruzS4tbTPisDyys6EUxAhXgVH9EMgw18fWqWNKii\nWGrcToVbJfqof+5u0Ur6aG/u++l5AwOg88lPVGmIpQKBgFhmTIpiPxAMAF87Gg/B\nP7FiN5UjJFHMGJ9V0zn0uR82y6ZUtUlMFHaKwisRZFZYni+r5IFfOS0IqKfbmyzb\nxxYdTQUBPc9nUxwzDNWdADKdV09wIJvUQEhHJ8YJC2XH6xC2PsiICpaDlVvBso3u\nvZ5TC52mjUw5fSkBLQDH+4UX\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-service@eskimoz-etude-cas-46017.iam.gserviceaccount.com",
+  "client_id": "113539053342616979022",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-service%40eskimoz-etude-cas-46017.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
