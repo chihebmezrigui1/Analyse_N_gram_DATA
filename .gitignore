@@ -1,0 +1,29 @@
+# Ignore les environnements virtuels
+venv/
+env/
+.venv/
+.env/
+
+# Ignore les fichiers de dépendances
+*.pyc
+__pycache__/
+
+# Ignore les fichiers de configuration
+*.env
+
+# Ignore les fichiers de logs
+*.log
+
+# Ignore les fichiers de cache
+.cache/
+
+# Ignore les fichiers de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignore les fichiers spécifiques à votre système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers de l'éditeur de code
+.vscode/
+.idea/

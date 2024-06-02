@@ -1,0 +1,6 @@
+gspread==6.1.2 # une bibliothèque pour l'authentification à un serveur google pour accéder aux API GCP
+google-auth==2.29.0 # une bibliothèque pour travailler avec Google Sheets.
+nltk==3.8.1
+pandas==2.2.2
+matplotlib==3.9.0
+wordcloud==1.9.3
