@@ -67,7 +67,7 @@ pip install -r requirements.txt
 - sheet_name : C'est le nom de la feuille de calcul dans laquelle vous souhaitez mettre à jour les données.
 - dataframe : Un dataFrame pandas contenant les données que vous souhaitez mettre à jour dans la feuille de calcul.<br/>
 
-Exemple pour le google sheet après l'update : 
+Exemple pour le google sheet après l'update : <br/>
 ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/ec6cf56d-023e-473a-8d2d-0e5e5fe32f8b)
 
 
