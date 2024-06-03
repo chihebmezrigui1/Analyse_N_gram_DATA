@@ -12,7 +12,7 @@
     - [Fonction 1 : Connexion à l’API Google Sheets](#fonction-1-connexion-a-lapi-google-sheets)
       - [Configuration de l'API Google Sheets](#configuration-de-lapi-google-sheets)
       - [Activer l'API Google Sheets](#activer-lapi-google-sheets)
-      - [Créer un Fichier de Configuration pour Stocker la Clé et les Informations d'Identification](#creer-un-fichier-de-configuration-pour-stocker-la-cle-et-les-informations-didentification)
+      - [Créer un fichier de configuration pour stocker le clé et les informations d'identification](#creer-un-fichier-de-configuration-pour-stocker-la-cle-et-les-informations-didentification)
       - [Générer et Télécharger la Clé de Compte de Service](#generer-et-telecharger-la-cle-de-compte-de-service)
 
 
