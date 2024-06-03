@@ -7,7 +7,7 @@
     - [Run python](#Run-python)
     - [Configuration de l'Environnement de Développement](#Configuration-de-l'Environnement-de-Développement)
     - [Installation des Dépendances](#Installation-des-Dépendances)
-    - [Les dépendances suivantes seront installées](#Les-dépendances-suivantes-seront-installées)
+    - [Les dépendances](#Les-dépendances-suivantes-seront-installées)
  
 
 ## Overview
