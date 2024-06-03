@@ -11,7 +11,7 @@ git clone https://github.com/chihebmezrigui1/etude_cas_gcp.git
 - Accédez au répertoire du projet :
 cd etude_cas_gcp
 ### Installation des Dépendances:
-- J'ai utilisé pip pour installer les dépendances requises en exécutant la commande suivante :
+- Vous utilisez pip pour installer les dépendances requises en exécutant la commande suivante :
 pip install -r requirements.txt
 #### Les dépendances suivantes seront installées :
 - gspread==6.1.2: Une bibliothèque pour l'authentification à un serveur Google pour accéder aux API GCP.
@@ -21,16 +21,16 @@ pip install -r requirements.txt
 - matplotlib==3.9.0: Une bibliothèque pour la visualisation de données.
 - wordcloud==1.9.3: Une bibliothèque pour la création de nuages de mots.
 ### Configuration de l'API Google Sheets
-- J'ai accédé à la Console Google Cloud Platform et j'ai crée un nouveau projet sous le nom "eskimoz-etude-cas".
+- Vous accédez à la Console Google Cloud Platform et créez un nouveau projet.
 #### Activer l'API Google Sheets :
 - Dans le menu à gauche, allez dans "API & Services" > "Bibliothèques".
-- Faites un recherche sur "Google sheets API" , Après cliquez sur "Activer" pour activer l'API .
+- Effectuez une recherche sur "Google sheets API" , Après cliquez sur "Activer" pour activer l'API .
 #### Créer un fichier de configuration pour stocker le clé et les informations d'identification :
 - Allez dans "API & Services" > "Identifiants" avec selection du "Compte de service" .
 - Donnez un nom à votre compte de service et cliquez sur "Créer et continuerr".
 - Choissisez le role "Editeur" , et après sur "OK" .
 #### Générer et télécharger la clé de compte de service :
-- Dans la partie "Comptes de services" , vous trouvez votre compte de service . Comme vous voyer mon exemple dans le screenshot :
+- Dans la partie "Comptes de services" , vous trouverez votre compte de service . Comme vous pouvez le voir dans mon exemple dans le screenshot :
   ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/04f1e7a7-5a6f-4731-8ab5-c54734f130d8)
 - Cliquez sur "Gérer les comptes de service", puis sur les trois points et sélectionnez "Gérer une clé". Ensuite, vous serez redirigé vers une page où il y a un bouton "Ajouter une clé". Cliquez dessus, puis choisissez "Créer une clé" et sélectionnez le format JSON. Félicitations ! Votre clé sera téléchargée . 😃👏
   
