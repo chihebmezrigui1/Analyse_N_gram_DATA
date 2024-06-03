@@ -10,3 +10,6 @@ Ce projet consiste à créer des fonctions en Python permettant d'interagir avec
 git clone https://github.com/chihebmezrigui1/etude_cas_gcp.git
 - Accédez au répertoire du projet :
 cd etude_cas_gcp
+### Installation des Dépendances:
+pip install -r requirements.txt
+
