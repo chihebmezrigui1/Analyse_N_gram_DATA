@@ -1,3 +1,16 @@
+## Table of Contents
+- [HackatonMIA8](#hackatonmia8)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Instructions d'Installation](#setup-instructions)
+    - [Prerequisites](#prerequisites)
+    - [Run python](#Run-python)
+    - [Configuration de l'Environnement de Développement](#Configuration)
+    - [Installation des Dépendances](#Installation)
+    - [Les dépendances suivantes seront installées](#Les dépendances)
+  - [Running the Project](#running-the-project)
+ 
+
 ## Overview
 Ce projet consiste à créer des fonctions en Python permettant d'interagir avec l'API Google Sheets via Google Cloud Platform, ainsi qu'à effectuer une analyse n-gram sur les données collectées.
 
