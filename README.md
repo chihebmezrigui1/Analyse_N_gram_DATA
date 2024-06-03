@@ -9,7 +9,7 @@
     - [Installation des Dépendances](#Installation-des-Dépendances)
     - [Les dépendances](#Les-dépendances-suivantes-seront-installées)
   - [Les fonctions utilisées](#Les-fonctions-utilisées)
-    - [Fonction 1:Connection à l’API Google Sheets](#Fonction-1:Connection-à-l’API-Google-Sheets)
+    - [Fonction 1:Connection à l’API Google Sheets](#Fonction1:Connection-à-l’API-Google-Sheets)
       - [Configuration de l'API Google Sheets](#Configuration-de-l'API-Google-Sheets)
       - [Activer l'API Google Sheets](#Activer-l'API-Google-Sheets)
       - [Créer un fichier de configuration pour stocker le clé et les informations d'identification](#Créer-un-fichier-de-configuration-pour-stocker-le-clé-et-les-informations-d'identification)
