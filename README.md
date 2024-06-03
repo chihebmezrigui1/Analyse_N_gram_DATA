@@ -52,7 +52,7 @@ pip install -r requirements.txt
 - J'ai chargé les données textuelles depuis un fichier CSV "data_science_phrases.csv" pour effectuer l'analyse n-gram à l'aide des fonctions définies précédemment .
 - Ces Fonctions "vis_nuage_mots" et "plot_ngrams" visualisent les données de n_grams et leurs fréquence : <br/>
 
-  Un exemple pour Visualisation des données de 1_grams et leur fréquence sous forme d'un nuage de mots.
+  Un exemple pour la visualisation des données de 1_grams et leur fréquence sous forme d'un nuage de mots.
 ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/d503d32c-cdd6-4f8f-a531-cec08a64a822)
 "NB : Vous trouverez quelques screenshots d'exemple de visualisation dans le dossier images, sous-dossier data. 😃"
 
