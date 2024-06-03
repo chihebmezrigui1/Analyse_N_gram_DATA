@@ -5,15 +5,8 @@
   - [Instructions d'Installation](#instructions-dinstallation)
     - [Prerequisites](#prerequisites)
     - [Run python](#run-python)
-    - [Configuration de l'Environnement de Développement](#configuration-de-lenvironnement-de-developpement)
-    - [Installation des Dépendances](#installation-des-dependances)
-    - [Les Dépendances Suivantes Seront Installées](#les-dependances-suivantes-seront-installees)
-  - [Les Fonctions Utilisées](#les-fonctions-utilisees)
-    - [Fonction 1 : Connexion à l’API Google Sheets](#fonction-1-connexion-a-lapi-google-sheets)
-      - [Configuration de l'API Google Sheets](#configuration-de-lapi-google-sheets)
-      - [Activer l'API Google Sheets](#activer-lapi-google-sheets)
-      - [Créer un fichier de configuration pour stocker le clé et les informations d'identification](#creer-un-fichier-de-configuration-pour-stocker-la-cle-et-les-informations-didentification)
-      - [Générer et Télécharger la Clé de Compte de Service](#generer-et-telecharger-la-cle-de-compte-de-service)
+    - [Configuration de l'Environnement de Développement](#configuration-de-lEnvironnement-de-Developpement)
+  
 
 
 ## Overview
