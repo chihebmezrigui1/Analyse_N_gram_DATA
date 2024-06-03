@@ -53,10 +53,10 @@ pip install -r requirements.txt
 - Récupération des données du fichier CSV à l'aide de la bibliothèque pandas .<br/>
 ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/16414786-6f58-4ff0-8991-a6c1eb7426e9)
 - Cette fonction "update_google_sheet(user, spreadsheet_id, sheet_name, dataframe)" est conçue pour mettre à jour une feuille de calcul Google Sheets avec les données d'un DataFrame .
-  user: représentant l'utilisateur qui a accès au Google Sheet GCP .
-  spreadsheet_id : C'est l'identifiant unique de la feuille de calcul Google Sheets que vous souhaitez mettre à jour .
-  sheet_name : C'est le nom de la feuille de calcul dans laquelle vous souhaitez mettre à jour les données.
-  dataframe : Un dataFrame pandas contenant les données que vous souhaitez mettre à jour dans la feuille de calcul.
+- user: représentant l'utilisateur qui a accès au Google Sheet GCP .
+- spreadsheet_id : C'est l'identifiant unique de la feuille de calcul Google Sheets que vous souhaitez mettre à jour .
+- sheet_name : C'est le nom de la feuille de calcul dans laquelle vous souhaitez mettre à jour les données.
+- dataframe : Un dataFrame pandas contenant les données que vous souhaitez mettre à jour dans la feuille de calcul.
 
 
 
