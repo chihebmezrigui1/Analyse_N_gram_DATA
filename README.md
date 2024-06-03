@@ -8,7 +8,13 @@
     - [Configuration de l'Environnement de Développement](#Configuration-de-l'Environnement-de-Développement)
     - [Installation des Dépendances](#Installation-des-Dépendances)
     - [Les dépendances](#Les-dépendances-suivantes-seront-installées)
- 
+  - [Les fonctions utilisées](#Les-fonctions-utilisées)
+    - [Fonction 1 : Connection à l’API Google Sheets](#Fonction-1-:-Connection-à-l’API-Google-Sheets)
+      - [Configuration de l'API Google Sheets](#Configuration-de-l'API-Google-Sheets)
+      - [Activer l'API Google Sheets](#Activer-l'API-Google-Sheets)
+      - [Créer un fichier de configuration pour stocker le clé et les informations d'identification](#Créer-un-fichier-de-configuration-pour-stocker-le-clé-et-les-informations-d'identification)
+      - [Générer et télécharger la clé de compte de service](#Générer-et-télécharger-la-clé-de-compte-de-service)
+
 
 ## Overview
 Ce projet consiste à créer des fonctions en Python permettant d'interagir avec l'API Google Sheets via Google Cloud Platform, ainsi qu'à effectuer une analyse n-gram sur les données collectées.
@@ -44,14 +50,14 @@ pip install -r requirements.txt
 ### Fonction 1 : Connection à l’API Google Sheets
 #### Configuration de l'API Google Sheets
 - Vous accédez à la Console Google Cloud Platform et créez un nouveau projet.
-##### Activer l'API Google Sheets :
+##### Activer l'API Google Sheets
 - Dans le menu à gauche, allez dans "API & Services" > "Bibliothèques".
 - Effectuez une recherche sur "Google sheets API" , Après cliquez sur "Activer" pour activer l'API .
-##### Créer un fichier de configuration pour stocker le clé et les informations d'identification :
+##### Créer un fichier de configuration pour stocker le clé et les informations d'identification
 - Allez dans "API & Services" > "Identifiants" avec selection du "Compte de service" .
 - Donnez un nom à votre compte de service et cliquez sur "Créer et continuerr".
 - Choissisez le role "Editeur" , et après sur "OK" .
-##### Générer et télécharger la clé de compte de service :
+##### Générer et télécharger la clé de compte de service
 - Dans la partie "Comptes de services" , vous trouverez votre compte de service . Comme vous pouvez le voir dans mon exemple dans le screenshot :
   ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/04f1e7a7-5a6f-4731-8ab5-c54734f130d8)
 - Cliquez sur "Gérer les comptes de service", puis sur les trois points et sélectionnez "Gérer une clé". Ensuite, vous serez redirigé vers une page où il y a un bouton "Ajouter une clé". Cliquez dessus, puis choisissez "Créer une clé" et sélectionnez le format JSON. Félicitations ! Votre clé sera téléchargée . 😃👏
