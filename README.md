@@ -43,4 +43,10 @@ pip install -r requirements.txt
 - La fonction "clean_text" est utilisée pour nettoyer et prétraiter les données textuelles en français.
 - La fonction "generate_ngrams" génère des n-grammes à partir d'un texte donné : <br/> la bibliothèque nltk est utilisée pour générer des n-grammes à partir des mots nettoyés.
 - La fonction "analyze_ngrams" analyse la fréquence des n-grammes dans une liste de textes : <br/> Elle est utile pour identifier les séquences de mots les plus courantes dans un corpus de données textuelles. 
-- J'ai chargé les données textuelles depuis un fichier CSV "data_science_phrases.csv" pour effectuer l'analyse n-gram à l'aide des fonctions définies précédemment
+- J'ai chargé les données textuelles depuis un fichier CSV "data_science_phrases.csv" pour effectuer l'analyse n-gram à l'aide des fonctions définies précédemment .
+- La Fonction "vis_nuage_mots" visualise les données de n_grams et leurs fréquence sous forme d'un nuage de mots : <br/>
+  Un exemple pour Visualisation des données de 1_grams et leur fréquence .
+![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/0e0e8281-6e4b-42c8-96a0-26c22514de12)
+"NB : Vous trouverez les autres captures de vis dans le dossier images, sous-dossier data."
+### Fonction 2 : Remplir un Google Sheets à partir d'un DataFrame
+
