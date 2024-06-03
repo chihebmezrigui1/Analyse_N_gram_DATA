@@ -5,9 +5,9 @@
   - [Instructions d'Installation](#setup-instructions)
     - [Prerequisites](#prerequisites)
     - [Run python](#Run-python)
-    - [Configuration de l'Environnement de Développement](#Configuration)
-    - [Installation des Dépendances](#Installation)
-    - [Les dépendances suivantes seront installées](#dépendances)
+    - [Configuration de l'Environnement de Développement](#Configuration-de-l'Environnement-de-Développement)
+    - [Installation des Dépendances](#Installation-des-Dépendances)
+    - [Les dépendances suivantes seront installées](#Les-dépendances-suivantes-seront-installées)
  
 
 ## Overview
