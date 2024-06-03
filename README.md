@@ -5,6 +5,10 @@ Ce projet consiste à créer des fonctions en Python permettant d'interagir avec
 ### Prerequisites
 - Un éditeur de code ( ex : Vscode ) 
 - Python 3 and pip
+### Run python 
+```bash
+python main.py
+```
 ### Configuration de l'Environnement de Développement
 - Clonez ce repository sur votre machine locale en utilisant la commande suivante : <br/>
 git clone -b master https://github.com/chihebmezrigui1/etude_cas_gcp.git
@@ -12,7 +16,9 @@ git clone -b master https://github.com/chihebmezrigui1/etude_cas_gcp.git
 cd etude_cas_gcp
 ### Installation des Dépendances:
 - Vous utilisez pip pour installer les dépendances requises en exécutant la commande suivante :
+```bash
 pip install -r requirements.txt
+```
 #### Les dépendances suivantes seront installées :
 - gspread==6.1.2: <br/>Une bibliothèque pour l'authentification à un serveur Google pour accéder aux API GCP.
 - google-auth==2.29.0:<br/> Une bibliothèque pour travailler avec Google Sheets.
