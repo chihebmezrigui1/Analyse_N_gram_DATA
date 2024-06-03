@@ -1,3 +1,13 @@
+"""
+Auteur : MEZRIGUI Chihab 👨‍💻
+Date : 03/06/2024 📅
+
+Ce Code utilise diverses bibliothèques pour créer des fonctions en Python permettant 
+d'interagir avec l'API Google Sheets via Google Cloud Platform, ainsi qu'à effectuer 
+une analyse n-gram sur les données collectées.
+
+"""
+
 import re
 from google.oauth2.service_account import Credentials
 import gspread
@@ -10,7 +20,10 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 
-#--------------------------------  Fonction 1 : Connection à l’API Google Sheets  --------------------------------------
+""" 
+   Fonction 1 : Connection à l’API Google Sheets 
+
+"""
 
 # Accès au service Google Sheet API
 def connexion_to_googlesheets(json_keyfile):
@@ -20,7 +33,6 @@ def connexion_to_googlesheets(json_keyfile):
         
         credentials = Credentials.from_service_account_file(json_keyfile, scopes=SCOPES)
         user = gspread.authorize(credentials)
-        
         print("Connection à l'API Google Sheets réussie.")
         return user
     except Exception as e:
@@ -28,8 +40,10 @@ def connexion_to_googlesheets(json_keyfile):
         return None
 
 
-#-------------------------------- Fonction 2 : Analyse n-gram --------------------------------
 
+""" 
+   Fonction 2 : Analyse n-gram 
+"""
 
 # Fonction pour nettoyer et prétraiter les données textuelles
 def clean_text(text):
@@ -59,6 +73,7 @@ def clean_text(text):
 
 # Générer les n-grams
 def generate_ngrams(text, n):
+    # On fait un appel pour la fonction clean_text
     words = clean_text(text)
     n_grams = ngrams(words, n)
     return [' '.join(grams) for grams in n_grams]
@@ -74,9 +89,8 @@ def analyze_ngrams(texts, n):
 
 
 
-
 # Charger les données textuelles depuis le fichier CSV
-csv_file_path = r'D:\work\ESKIMOZ\data\data_science_phrases.csv'
+csv_file_path = r'data\data_science_phrases.csv'
 df = pd.read_csv(csv_file_path)
 
 # On prend la colonne 'texte' qui contient les données textuelles .
@@ -97,14 +111,17 @@ for n in range(1, max_length + 1):
 # Sauvegarder les résultats dans des fichiers CSV
 for n, ngrams in ngrams_results.items():
     ngrams_df = pd.DataFrame(ngrams, columns=[f'{n}-gram', 'frequency'])
-    ngrams_df.to_csv(f'D:/work/ESKIMOZ_PROJECT/data/{n}grams_frequency.csv', index=False)
+    ngrams_df.to_csv(f'data/{n}grams_frequency.csv', index=False)
 
-print(f"Les résultats ont été sauvegardés dans des fichiers CSV nommés '{n}grams_frequency.csv' pour n allant de 1 à {max_length}.")
+print("Les résultats ont été sauvegardés dans des fichiers CSV")
 
 
 
-# VISUALISATION DES DONNEES 
 
+""" 
+  Un + 😊 =>  Partie : VISUALISATION DES DONNEES 
+
+"""
 
 # Fonction pour la visualisation des données de n_grams et leurs fréquence sous forme d'un nuage de mots
 
@@ -122,12 +139,10 @@ def vis_nuage_mots(ngrams_results, n):
     plt.title(f'Nuage de mots des {n}-grams les plus fréquents')
     plt.show()
 
-
-
 # On applique cette fonction pour visualiser le nuage des mots de 1gram les plus fréquents
+# J'ai choisi des séquences d'un seul mot (1gram)
 n=1
 vis_nuage_mots(ngrams_results, 1)
-
 
 # Fonction pour la visualisation des données de n_grams et leurs fréquence sous forme des barres horizontales .
 def plot_ngrams(ngrams_results, n):
@@ -139,16 +154,20 @@ def plot_ngrams(ngrams_results, n):
     plt.title(f'{n}-grams les plus fréquents')
     plt.gca().invert_yaxis()
     plt.show()
-
-
-# On applique cette fonction pour visualiser les 5grams les plus fréquents
+    
+# On applique cette fonction pour visualiser les 5grams les plus fréquents 
+# j'ai choisi séquence contient 8 mots 
 n=8
 plot_ngrams(ngrams_results, 8)
 
 
 
 
-# -------------------------- Fonction 3 : Remplir un Google Sheets à partir d'un DataFrame  -----------------------------------
+
+""" 
+   Fonction 3  : Remplir un Google Sheets à partir d'un DataFrame
+
+"""
 
 # Fonction pour mettre à jour Google Sheets avec un DataFrame
 def update_google_sheet(user, spreadsheet_id, sheet_name, dataframe):
@@ -164,20 +183,20 @@ def update_google_sheet(user, spreadsheet_id, sheet_name, dataframe):
         # Mettre à jour les données dans Google Sheets à partir du col A1
         worksheet.update('A1', values)
         
-        print("Update de Google Sheets réussie.")
+        print("Mettre à jour de Google Sheets réussie.")
     except Exception as e:
-        print(f"Erreur lors de l'update': {e}")
+        print(f"Erreur lors de mis à jour: {e}")
 
 
 
 
-json_url = r'D:\work\ESKIMOZ\eskimoz-etude-cas-46017-d740eda083ad.json' 
+json_url = r'data\config\eskimoz-etude-cas-46017-d740eda083ad.json' 
 # Connexion à l'API Google Sheets
 user = connexion_to_googlesheets(json_url)
 
-# Chargement du DataFrame à partir d'un fichier CSV
-data_science_phrases_path = r'D:\work\ESKIMOZ\data\7grams_frequency.csv'
-df = pd.read_csv(data_science_phrases_path)
+# Chargement du DataFrame à partir d'un fichier CSV : data_science_phrases( un exemple )
+csv_path = r'data\data_science_phrases.csv'
+df = pd.read_csv(csv_path)
 print("DataFrame chargé avec succès.")
 print(df.head(10))
 
