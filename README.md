@@ -3,5 +3,5 @@ Ce projet consiste à créer des fonctions en Python permettant d'interagir avec
 
 ## Instructions d'Installation
 ### Prerequisites
-- Un code éditor ( ex : Vscode ) 
+- Un éditeur de code ( ex : Vscode ) 
 - Python 3 and pip
