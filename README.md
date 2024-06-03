@@ -20,22 +20,27 @@ pip install -r requirements.txt
 - pandas==2.2.2: Une bibliothèque pour la manipulation de données.
 - matplotlib==3.9.0: Une bibliothèque pour la visualisation de données.
 - wordcloud==1.9.3: Une bibliothèque pour la création de nuages de mots.
-### Configuration de l'API Google Sheets
+  
+## Les fonctions utilisées :
+
+### Fonction 1 : 
+#### Configuration de l'API Google Sheets
 - Vous accédez à la Console Google Cloud Platform et créez un nouveau projet.
-#### Activer l'API Google Sheets :
+##### Activer l'API Google Sheets :
 - Dans le menu à gauche, allez dans "API & Services" > "Bibliothèques".
 - Effectuez une recherche sur "Google sheets API" , Après cliquez sur "Activer" pour activer l'API .
-#### Créer un fichier de configuration pour stocker le clé et les informations d'identification :
+##### Créer un fichier de configuration pour stocker le clé et les informations d'identification :
 - Allez dans "API & Services" > "Identifiants" avec selection du "Compte de service" .
 - Donnez un nom à votre compte de service et cliquez sur "Créer et continuerr".
 - Choissisez le role "Editeur" , et après sur "OK" .
-#### Générer et télécharger la clé de compte de service :
+##### Générer et télécharger la clé de compte de service :
 - Dans la partie "Comptes de services" , vous trouverez votre compte de service . Comme vous pouvez le voir dans mon exemple dans le screenshot :
   ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/04f1e7a7-5a6f-4731-8ab5-c54734f130d8)
 - Cliquez sur "Gérer les comptes de service", puis sur les trois points et sélectionnez "Gérer une clé". Ensuite, vous serez redirigé vers une page où il y a un bouton "Ajouter une clé". Cliquez dessus, puis choisissez "Créer une clé" et sélectionnez le format JSON. Félicitations ! Votre clé sera téléchargée . 😃👏
+- La fonction "connexion_to_googlesheets" établit une connexion à l'API Google Sheets en utilisant un fichier JSON contenant les clés d'authentification.
   
-## Les fonctions utilisées :
 ### Fonction 2 : Analyse n-gram
-- La fonction "connexion_to_googlesheets" établit une connexion à l'API Google Sheets en utilisant un fichier JSON contenant les clés d'authentification. Elle prend en paramètre le chemin vers ce fichier JSON.
 - La fonction "clean_text" est utilisée pour nettoyer et prétraiter les données textuelles en français.
-- La fonction "generate_ngrams" génère des n-grammes à partir d'un texte donné : <br/> La fonction utilise la bibliothèque nltk pour générer des n-grammes à partir des mots nettoyés.
+- La fonction "generate_ngrams" génère des n-grammes à partir d'un texte donné : <br/> la bibliothèque nltk est utilisée pour générer des n-grammes à partir des mots nettoyés.
+- La fonction "analyze_ngrams" analyse la fréquence des n-grammes dans une liste de textes : <br/> Elle est utile pour identifier les séquences de mots les plus courantes dans un corpus de données textuelles. 
+- J'ai chargé les données textuelles depuis un fichier CSV "data_science_phrases.csv" pour effectuer l'analyse n-gram à l'aide des fonctions définies précédemment
