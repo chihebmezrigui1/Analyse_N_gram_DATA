@@ -48,6 +48,7 @@ pip install -r requirements.txt
   Un exemple pour Visualisation des données de 1_grams et leur fréquence .
 ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/0e0e8281-6e4b-42c8-96a0-26c22514de12)
 "NB : Vous trouverez les autres captures de vis dans le dossier images, sous-dossier data."
+
 - Vous trouverez la documentation des insights obtenus à partir de l'analyse n-gram dans un fichier pdf dans le dossier Static files sous dossier 'Data' .
 
 ### Fonction 3 : Remplir un Google Sheets à partir d'un DataFrame
