@@ -60,12 +60,16 @@ pip install -r requirements.txt
 
 ### Fonction 3 : Remplir un Google Sheets à partir d'un DataFrame
 - Récupération des données du fichier CSV à l'aide de la bibliothèque pandas .<br/> 😃
-![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/16414786-6f58-4ff0-8991-a6c1eb7426e9)
+![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/80207db0-4cf0-4e85-9c51-b2dd5d398a9c)
 - Cette fonction "update_google_sheet(user, spreadsheet_id, sheet_name, dataframe)" est conçue pour mettre à jour une feuille de calcul Google Sheets avec les données d'un DataFrame .
 - user: représentant l'utilisateur qui a accès au Google Sheet GCP . 😃
 - spreadsheet_id : C'est l'identifiant unique de la feuille de calcul Google Sheets que vous souhaitez mettre à jour .
 - sheet_name : C'est le nom de la feuille de calcul dans laquelle vous souhaitez mettre à jour les données.
-- dataframe : Un dataFrame pandas contenant les données que vous souhaitez mettre à jour dans la feuille de calcul.
+- dataframe : Un dataFrame pandas contenant les données que vous souhaitez mettre à jour dans la feuille de calcul.<br/>
+
+Exemple pour le google sheet après l'update : 
+![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/ec6cf56d-023e-473a-8d2d-0e5e5fe32f8b)
+
 
 
 
