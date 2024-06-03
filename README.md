@@ -27,7 +27,7 @@ Ce projet consiste à créer des fonctions en Python permettant d'interagir avec
 ```bash
 python main.py
 ```
-### Configuration de l'Environnement de Développement:
+### Configuration de l'Environnement de Développement
 - Clonez ce repository sur votre machine locale en utilisant la commande suivante : <br/>
 git clone -b master https://github.com/chihebmezrigui1/etude_cas_gcp.git
 - Accédez au répertoire du projet : <br/>
