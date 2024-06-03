@@ -1,5 +1,5 @@
 ## Table of Contents
-- [HackatonMIA8](#hackatonmia8)
+- [ETUDE DE CAS](#ETUDE-DE-CAS)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Instructions d'Installation](#setup-instructions)
