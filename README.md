@@ -1,14 +1,3 @@
-## Table of Contents
-- [ETUDE DE CAS](#ETUDE-DE-CAS)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Instructions d'Installation](#instructions-dinstallation)
-    - [Prerequisites](#prerequisites)
-    - [Run python](#run-python)
-    - [Configuration de l'Environnement de Développement](#Configuration-de-l'Environnement-de-Développement)
-  
-
-
 ## Overview
 Ce projet consiste à créer des fonctions en Python permettant d'interagir avec l'API Google Sheets via Google Cloud Platform, ainsi qu'à effectuer une analyse n-gram sur les données collectées.
 
