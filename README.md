@@ -7,14 +7,13 @@
     - [Run python](#Run-python)
     - [Configuration de l'Environnement de Développement](#Configuration)
     - [Installation des Dépendances](#Installation)
-    - [Les dépendances suivantes seront installées](#Les dépendances)
-  - [Running the Project](#running-the-project)
+    - [Les dépendances suivantes seront installées](#dépendances)
  
 
 ## Overview
 Ce projet consiste à créer des fonctions en Python permettant d'interagir avec l'API Google Sheets via Google Cloud Platform, ainsi qu'à effectuer une analyse n-gram sur les données collectées.
 
-## Instructions d'Installation
+## Instructions d'Installation:
 ### Prerequisites
 - Un éditeur de code ( ex : Vscode ) 
 - Python 3 and pip
@@ -22,7 +21,7 @@ Ce projet consiste à créer des fonctions en Python permettant d'interagir avec
 ```bash
 python main.py
 ```
-### Configuration de l'Environnement de Développement
+### Configuration de l'Environnement de Développement:
 - Clonez ce repository sur votre machine locale en utilisant la commande suivante : <br/>
 git clone -b master https://github.com/chihebmezrigui1/etude_cas_gcp.git
 - Accédez au répertoire du projet : <br/>
@@ -32,7 +31,7 @@ cd etude_cas_gcp
 ```bash
 pip install -r requirements.txt
 ```
-#### Les dépendances suivantes seront installées :
+#### Les dépendances suivantes seront installées:
 - gspread==6.1.2: <br/>Une bibliothèque pour l'authentification à un serveur Google pour accéder aux API GCP.
 - google-auth==2.29.0:<br/> Une bibliothèque pour travailler avec Google Sheets.
 - nltk==3.8.1:<br/> Une bibliothèque pour le traitement du langage naturel.
@@ -40,7 +39,7 @@ pip install -r requirements.txt
 - matplotlib==3.9.0:<br/> Une bibliothèque pour la visualisation de données.
 - wordcloud==1.9.3:<br/> Une bibliothèque pour la création de nuages de mots.
   
-## Les fonctions utilisées :
+## Les fonctions utilisées:
 
 ### Fonction 1 : Connection à l’API Google Sheets
 #### Configuration de l'API Google Sheets
