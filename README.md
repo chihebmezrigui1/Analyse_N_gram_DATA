@@ -34,6 +34,8 @@ pip install -r requirements.txt
   ![image](https://github.com/chihebmezrigui1/etude_cas_gcp/assets/99685119/04f1e7a7-5a6f-4731-8ab5-c54734f130d8)
 - Cliquez sur "Gérer les comptes de service", puis sur les trois points et sélectionnez "Gérer une clé". Ensuite, vous serez redirigé vers une page où il y a un bouton "Ajouter une clé". Cliquez dessus, puis choisissez "Créer une clé" et sélectionnez le format JSON. Félicitations ! Votre clé sera téléchargée . 😃👏
   
-## Les fonctions utilisées 
-- La fonction connexion_to_googlesheets(json_keyfile) établit une connexion à l'API Google Sheets en utilisant un fichier JSON contenant les clés d'authentification. Elle prend en paramètre le chemin vers ce fichier JSON.
-
+## Les fonctions utilisées :
+### Fonction 2 : Analyse n-gram
+- La fonction "connexion_to_googlesheets" établit une connexion à l'API Google Sheets en utilisant un fichier JSON contenant les clés d'authentification. Elle prend en paramètre le chemin vers ce fichier JSON.
+- La fonction "clean_text" est utilisée pour nettoyer et prétraiter les données textuelles en français.
+- La fonction "generate_ngrams" génère des n-grammes à partir d'un texte donné : <br/> La fonction utilise la bibliothèque nltk pour générer des n-grammes à partir des mots nettoyés.
